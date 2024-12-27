@@ -1,6 +1,11 @@
 # getting all the required modules 
+import re
+import praw
+import string
 import numpy as np
-from transformers import pipeline
+import pandas as pd
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 
 # API CALL stuff
 reddit = praw.Reddit(
