@@ -1,11 +1,14 @@
 # getting all the required modules 
 import re
+import json
 import praw
 import string
 import numpy as np
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from transformers import pipeline
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # API CALL stuff
 reddit = praw.Reddit(
@@ -15,7 +18,7 @@ reddit = praw.Reddit(
 )
 
 # Add the subreddit as a user input
-subreddit = reddit.subreddit("ufc")
+subreddit = reddit.subreddit("history")
 
 # Add additional variables with different selections
 # like "new_posts", "hot_posts", "controversial_posts" etc... as user inputs
@@ -87,10 +90,37 @@ def init_preprocess(data=unclean_data_dict):
 # a dataframe
 processed_data = init_preprocess()
 
-output_df = pd.DataFrame({
-    'Post Title': processed_data.keys(),
-    'Comments': [[" ".join(sub_val) for sub_val in val] for val in init_preprocess().values()]
-})
+
+# Create the desired structure
+comments_dict = {title: [[ " ".join(comment) ] for comment in comments] 
+                 for title, comments in processed_data.items()}
+
+sentiment_pipeline = pipeline("sentiment-analysis", 
+                              model="nlptown/bert-base-multilingual-uncased-sentiment")
 
 
-output_df.to_csv('output.csv', index=False)
+# Initialize empty list to store the results
+results = []
+
+# Iterate through each title and its corresponding comments
+for title, comments in comments_dict.items():
+    for idx, sub_comment in enumerate(comments, start=1):
+        result = sentiment_pipeline(sub_comment[0])  # Use the first item in the list (joined comment)
+        sentiment_score = result[0]['score']  # Use 'label' (positive/negative) or 'score' for numeric sentiment
+
+        # Append the data to the results list
+        results.append([title, f"comment #{idx}", sentiment_score])
+
+# Create a DataFrame from the results list
+df = pd.DataFrame(results, columns=["title", "comment_number", "result"])
+df.to_csv('output.csv', index=False)
+
+# sia = SentimentIntensityAnalyzer()
+
+
+
+# for title, comment in zip(comments_dict.keys(), comments_dict.values()):
+#     for sub_comment in comment:
+#         # Analyze sentiment using VADER
+#         sentiment = sia.polarity_scores(sub_comment[0])  # We access the first (and only) element in the list
+#         print(f"Sentiment for '{title}': {sub_comment[0]} -> {sentiment}")
