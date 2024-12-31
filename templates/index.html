@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reddit Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Reddit Sentiment Analysis</h1>
+    <form method="POST" action="/">
+        <label for="subreddit">Enter Subreddit:</label>
+        <input type="text" id="subreddit" name="subreddit" required>
+        <br>
+        <label for="category">Choose Category:</label>
+        <select id="category" name="category">
+            <option value="hot">Hot</option>
+            <option value="new">New</option>
+            <option value="top">Top</option>
+            <option value="controversial">Controversial</option>
+        </select>
+        <br>
+        <button type="submit">Fetch Posts</button>
+    </form>
+
+    {% if titles %}
+    <h2>Top 10 Posts in r/{{ subreddit }} ({{ category }})</h2>
+    <form method="POST" action="/visualize">
+        <input type="hidden" name="subreddit" value="{{ subreddit }}">
+        <label for="post_id">Choose a Post:</label>
+        <select id="post_id" name="post_id">
+            {% for post_id, title in titles %}
+            <option value="{{ post_id }}">{{ title }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Generate Visualization</button>
+    </form>
+    {% endif %}
+</body>
+</html>

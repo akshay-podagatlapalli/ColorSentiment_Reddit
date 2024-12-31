@@ -9,6 +9,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from transformers import pipeline
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from datetime import datetime
 
 # API CALL stuff
 reddit = praw.Reddit(
@@ -18,12 +19,12 @@ reddit = praw.Reddit(
 )
 
 # Add the subreddit as a user input
-subreddit = reddit.subreddit("history")
+subreddit = reddit.subreddit("uoft")
 
 # Add additional variables with different selections
 # like "new_posts", "hot_posts", "controversial_posts" etc... as user inputs
 # Add the limit as a user input
-new_posts = subreddit.new(limit=10)
+new_posts = list(subreddit.controversial(limit=10))
 
 
 # this function is used to fetch the data 
@@ -39,11 +40,25 @@ def get_data(new_posts=new_posts):
             data_dict[post_title].extend(comments)
         else:
             data_dict[post_title] = comments
-
     return data_dict
+
+def get_time(new_posts = new_posts):
+    dict_time = {}
+    for post in new_posts:
+        post_title = post.title
+        post.comments.replace_more(limit = None)
+        time = [datetime.fromtimestamp(comment.created_utc).strftime('%Y-%m-%d %H:%M:%S') for comment in post.comments.list()]
+
+        if post_title in dict_time:
+            dict_time[post_title].extend(time)
+        else:
+            dict_time[post_title] = time
+    return dict_time
+        
 
 # calling the above function
 unclean_data_dict = get_data()
+time_dict = get_time()
 
 # this function does the preprocessing of the text
 def clean_text(text, replacement_text=''):
@@ -98,29 +113,34 @@ comments_dict = {title: [[ " ".join(comment) ] for comment in comments]
 sentiment_pipeline = pipeline("sentiment-analysis", 
                               model="nlptown/bert-base-multilingual-uncased-sentiment")
 
+emotion_pipeline = pipeline("text-classification", model="bhadresh-savani/distilbert-base-uncased-emotion", return_all_scores=True)
 
 # Initialize empty list to store the results
-results = []
+results_sentiment_pipeline = []
+results_emotion_pipeline = []
 
 # Iterate through each title and its corresponding comments
 for title, comments in comments_dict.items():
     for idx, sub_comment in enumerate(comments, start=1):
-        result = sentiment_pipeline(sub_comment[0])  # Use the first item in the list (joined comment)
-        sentiment_score = result[0]['score']  # Use 'label' (positive/negative) or 'score' for numeric sentiment
+        result1 = sentiment_pipeline(sub_comment[0])  # Use the first item in the list (joined comment)
+        result2 = emotion_pipeline(sub_comment[0])
+        sentiment_score = result1[0]['score']  # Use 'label' (positive/negative) or 'score' for numeric sentiment
+        emotion = result2[0]
+        highest_emotion = max(emotion, key=lambda x: x['score'])
+        emotion_type = highest_emotion['label']
+        emotion_score = highest_emotion['score']
 
-        # Append the data to the results list
-        results.append([title, f"comment #{idx}", sentiment_score])
+        # Fetch the corresponding time from time_dict
+        comment_time = time_dict[title][idx - 1]  # Subtract 1 since enumerate starts from 1
 
-# Create a DataFrame from the results list
-df = pd.DataFrame(results, columns=["title", "comment_number", "result"])
+        # Append the data to the results list with time
+        results_sentiment_pipeline.append([title, f"comment #{idx}", sentiment_score, comment_time])
+        results_emotion_pipeline.append([title, f"comment #{idx}", emotion_type, emotion_score, comment_time])
+
+
+# Create DataFrames with the additional time column
+df = pd.DataFrame(results_sentiment_pipeline, columns=["title", "comment_number", "result", "time"])
 df.to_csv('output.csv', index=False)
 
-# sia = SentimentIntensityAnalyzer()
-
-
-
-# for title, comment in zip(comments_dict.keys(), comments_dict.values()):
-#     for sub_comment in comment:
-#         # Analyze sentiment using VADER
-#         sentiment = sia.polarity_scores(sub_comment[0])  # We access the first (and only) element in the list
-#         print(f"Sentiment for '{title}': {sub_comment[0]} -> {sentiment}")
+df2 = pd.DataFrame(results_emotion_pipeline, columns=["title", "comment_number", "type", "score", "time"])
+df2.to_csv('output2.csv', index=False)
