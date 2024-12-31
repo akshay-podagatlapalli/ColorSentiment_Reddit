@@ -56,10 +56,6 @@ def get_time(new_posts = new_posts):
     return dict_time
         
 
-# calling the above function
-unclean_data_dict = get_data()
-time_dict = get_time()
-
 # this function does the preprocessing of the text
 def clean_text(text, replacement_text=''):
     # first remove URLS
@@ -75,7 +71,7 @@ def clean_text(text, replacement_text=''):
     return cleaned_text
 
 
-def init_preprocess(data=unclean_data_dict):
+def init_preprocess(data):
     stop_words = set(stopwords.words('english'))
     clean_data_dict = {}
 
@@ -103,44 +99,52 @@ def init_preprocess(data=unclean_data_dict):
 # Run the preprocessing and 
 # and store all the cleaned data inside 
 # a dataframe
-processed_data = init_preprocess()
+def fectch_and_process():
+
+    unclean_data_dict = get_data()
+    time_dict = get_time()
+    processed_data = init_preprocess(unclean_data_dict)
 
 
-# Create the desired structure
-comments_dict = {title: [[ " ".join(comment) ] for comment in comments] 
-                 for title, comments in processed_data.items()}
+    # Create the desired structure
+    comments_dict = {title: [[ " ".join(comment) ] for comment in comments] 
+                    for title, comments in processed_data.items()}
 
-sentiment_pipeline = pipeline("sentiment-analysis", 
-                              model="nlptown/bert-base-multilingual-uncased-sentiment")
+    sentiment_pipeline = pipeline("sentiment-analysis", 
+                                model="nlptown/bert-base-multilingual-uncased-sentiment")
 
-emotion_pipeline = pipeline("text-classification", model="bhadresh-savani/distilbert-base-uncased-emotion", return_all_scores=True)
+    emotion_pipeline = pipeline("text-classification", 
+                                model="bhadresh-savani/distilbert-base-uncased-emotion", return_all_scores=True)
 
-# Initialize empty list to store the results
-results_sentiment_pipeline = []
-results_emotion_pipeline = []
+    # Initialize empty list to store the results
+    results_sentiment_pipeline = []
+    results_emotion_pipeline = []
 
-# Iterate through each title and its corresponding comments
-for title, comments in comments_dict.items():
-    for idx, sub_comment in enumerate(comments, start=1):
-        result1 = sentiment_pipeline(sub_comment[0])  # Use the first item in the list (joined comment)
-        result2 = emotion_pipeline(sub_comment[0])
-        sentiment_score = result1[0]['score']  # Use 'label' (positive/negative) or 'score' for numeric sentiment
-        emotion = result2[0]
-        highest_emotion = max(emotion, key=lambda x: x['score'])
-        emotion_type = highest_emotion['label']
-        emotion_score = highest_emotion['score']
+    # Iterate through each title and its corresponding comments
+    for title, comments in comments_dict.items():
+        for idx, sub_comment in enumerate(comments, start=1):
+            result1 = sentiment_pipeline(sub_comment[0])  # Use the first item in the list (joined comment)
+            result2 = emotion_pipeline(sub_comment[0])
+            sentiment_score = result1[0]['score']  # Use 'label' (positive/negative) or 'score' for numeric sentiment
+            emotion = result2[0]
+            highest_emotion = max(emotion, key=lambda x: x['score'])
+            emotion_type = highest_emotion['label']
+            emotion_score = highest_emotion['score']
 
-        # Fetch the corresponding time from time_dict
-        comment_time = time_dict[title][idx - 1]  # Subtract 1 since enumerate starts from 1
+            # Fetch the corresponding time from time_dict
+            comment_time = time_dict[title][idx - 1]  # Subtract 1 since enumerate starts from 1
 
-        # Append the data to the results list with time
-        results_sentiment_pipeline.append([title, f"comment #{idx}", sentiment_score, comment_time])
-        results_emotion_pipeline.append([title, f"comment #{idx}", emotion_type, emotion_score, comment_time])
+            # Append the data to the results list with time
+            results_sentiment_pipeline.append([title, f"comment #{idx}", sentiment_score, comment_time])
+            results_emotion_pipeline.append([title, f"comment #{idx}", emotion_type, emotion_score, comment_time])
 
 
-# Create DataFrames with the additional time column
-df = pd.DataFrame(results_sentiment_pipeline, columns=["title", "comment_number", "result", "time"])
-df.to_csv('output.csv', index=False)
+    # Create DataFrames with the additional time column
+    sent_data = pd.DataFrame(results_sentiment_pipeline, columns=["title", "comment_number", "result", "time"])
+    sent_data.to_csv('output.csv', index=False)
 
-df2 = pd.DataFrame(results_emotion_pipeline, columns=["title", "comment_number", "type", "score", "time"])
-df2.to_csv('output2.csv', index=False)
+    emotion_data = pd.DataFrame(results_emotion_pipeline, columns=["title", "comment_number", "type", "score", "time"])
+    emotion_data.to_csv('output2.csv', index=False)
+
+    return sent_data, emotion_data
+
