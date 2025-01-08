@@ -1,0 +1,552 @@
+title,comment_number,type,score,time
+I can’t believe I didn’t learn about this in school.,comment #1,anger,0.8103260397911072,2022-08-27 13:18:04
+I can’t believe I didn’t learn about this in school.,comment #2,fear,0.650060772895813,2022-08-27 15:38:08
+I can’t believe I didn’t learn about this in school.,comment #3,joy,0.7312374114990234,2022-08-27 12:39:07
+I can’t believe I didn’t learn about this in school.,comment #4,anger,0.6928585767745972,2022-08-27 11:36:45
+I can’t believe I didn’t learn about this in school.,comment #5,anger,0.5465855002403259,2022-08-27 15:12:11
+I can’t believe I didn’t learn about this in school.,comment #6,sadness,0.9880555272102356,2022-08-27 12:25:18
+I can’t believe I didn’t learn about this in school.,comment #7,anger,0.549766480922699,2022-08-27 10:25:07
+I can’t believe I didn’t learn about this in school.,comment #8,anger,0.996875524520874,2022-08-27 13:45:08
+I can’t believe I didn’t learn about this in school.,comment #9,joy,0.9793015718460083,2022-08-27 12:41:39
+I can’t believe I didn’t learn about this in school.,comment #10,anger,0.3185631334781647,2022-08-27 13:05:40
+I can’t believe I didn’t learn about this in school.,comment #11,anger,0.9233875870704651,2022-08-27 12:49:57
+I can’t believe I didn’t learn about this in school.,comment #12,anger,0.37585946917533875,2022-08-27 12:43:54
+I can’t believe I didn’t learn about this in school.,comment #13,surprise,0.9865713715553284,2022-08-27 14:24:37
+I can’t believe I didn’t learn about this in school.,comment #14,anger,0.968835175037384,2022-08-27 15:32:39
+I can’t believe I didn’t learn about this in school.,comment #15,anger,0.5938708186149597,2022-08-27 17:10:08
+I can’t believe I didn’t learn about this in school.,comment #16,anger,0.962417483329773,2022-08-27 13:11:52
+I can’t believe I didn’t learn about this in school.,comment #17,surprise,0.9825917482376099,2022-08-27 12:54:53
+I can’t believe I didn’t learn about this in school.,comment #18,anger,0.9980623126029968,2022-08-27 12:45:21
+I can’t believe I didn’t learn about this in school.,comment #19,joy,0.6202255487442017,2022-08-27 12:23:36
+I can’t believe I didn’t learn about this in school.,comment #20,joy,0.9816969037055969,2022-08-27 15:53:04
+I can’t believe I didn’t learn about this in school.,comment #21,sadness,0.35546454787254333,2022-08-27 14:50:36
+I can’t believe I didn’t learn about this in school.,comment #22,sadness,0.9845278859138489,2022-08-27 15:52:11
+I can’t believe I didn’t learn about this in school.,comment #23,surprise,0.9828055500984192,2022-08-27 15:54:37
+I can’t believe I didn’t learn about this in school.,comment #24,sadness,0.9803475141525269,2022-08-30 13:10:44
+I can’t believe I didn’t learn about this in school.,comment #25,joy,0.4654608964920044,2022-08-27 14:28:53
+I can’t believe I didn’t learn about this in school.,comment #26,fear,0.3506080210208893,2022-08-27 15:36:42
+I can’t believe I didn’t learn about this in school.,comment #27,sadness,0.5517922043800354,2022-08-27 13:26:36
+I can’t believe I didn’t learn about this in school.,comment #28,joy,0.9904438853263855,2022-08-27 17:48:14
+I can’t believe I didn’t learn about this in school.,comment #29,anger,0.969926118850708,2022-08-27 13:51:29
+I can’t believe I didn’t learn about this in school.,comment #30,joy,0.9835175275802612,2022-08-27 14:50:50
+I can’t believe I didn’t learn about this in school.,comment #31,sadness,0.6354140043258667,2022-08-27 13:57:22
+I can’t believe I didn’t learn about this in school.,comment #32,joy,0.9985265731811523,2022-08-27 13:25:14
+I can’t believe I didn’t learn about this in school.,comment #33,joy,0.9959860444068909,2022-08-27 14:11:49
+I can’t believe I didn’t learn about this in school.,comment #34,sadness,0.6427146196365356,2022-08-27 15:08:39
+I can’t believe I didn’t learn about this in school.,comment #35,anger,0.39204517006874084,2022-08-27 13:18:33
+I can’t believe I didn’t learn about this in school.,comment #36,joy,0.7470303773880005,2022-08-27 11:30:23
+I can’t believe I didn’t learn about this in school.,comment #37,anger,0.9925357103347778,2022-08-27 11:47:31
+I can’t believe I didn’t learn about this in school.,comment #38,anger,0.9515887498855591,2022-08-27 11:42:14
+I can’t believe I didn’t learn about this in school.,comment #39,anger,0.864999532699585,2022-08-27 13:04:35
+I can’t believe I didn’t learn about this in school.,comment #40,anger,0.3975655734539032,2022-08-27 14:46:08
+I can’t believe I didn’t learn about this in school.,comment #41,anger,0.5635143518447876,2022-08-27 14:43:28
+I can’t believe I didn’t learn about this in school.,comment #42,anger,0.9770262837409973,2022-08-27 13:11:07
+I can’t believe I didn’t learn about this in school.,comment #43,anger,0.6428819894790649,2022-08-27 11:41:20
+I can’t believe I didn’t learn about this in school.,comment #44,joy,0.8951117992401123,2022-08-27 11:50:57
+I can’t believe I didn’t learn about this in school.,comment #45,joy,0.9294827580451965,2022-08-27 12:36:59
+I can’t believe I didn’t learn about this in school.,comment #46,joy,0.9877191781997681,2022-08-27 15:10:35
+I can’t believe I didn’t learn about this in school.,comment #47,joy,0.9703179001808167,2022-08-27 13:11:51
+I can’t believe I didn’t learn about this in school.,comment #48,joy,0.987014889717102,2022-08-27 13:46:26
+I can’t believe I didn’t learn about this in school.,comment #49,joy,0.9772112369537354,2022-08-27 14:24:10
+I can’t believe I didn’t learn about this in school.,comment #50,joy,0.9028898477554321,2022-08-27 15:13:14
+I can’t believe I didn’t learn about this in school.,comment #51,anger,0.5511637330055237,2022-08-27 17:44:04
+I can’t believe I didn’t learn about this in school.,comment #52,sadness,0.5372310280799866,2022-08-27 13:34:00
+I can’t believe I didn’t learn about this in school.,comment #53,joy,0.962951123714447,2022-08-27 14:00:10
+I can’t believe I didn’t learn about this in school.,comment #54,joy,0.7411225438117981,2022-08-27 13:47:43
+I can’t believe I didn’t learn about this in school.,comment #55,joy,0.9872609376907349,2022-08-27 14:13:50
+I can’t believe I didn’t learn about this in school.,comment #56,anger,0.4730597734451294,2022-08-27 14:52:12
+I can’t believe I didn’t learn about this in school.,comment #57,joy,0.7170045971870422,2022-08-27 14:37:21
+I can’t believe I didn’t learn about this in school.,comment #58,joy,0.9752967357635498,2022-08-27 16:04:36
+I can’t believe I didn’t learn about this in school.,comment #59,joy,0.6291450262069702,2022-08-27 15:04:39
+I can’t believe I didn’t learn about this in school.,comment #60,sadness,0.7960832715034485,2022-08-27 15:46:27
+I can’t believe I didn’t learn about this in school.,comment #61,sadness,0.9955801367759705,2022-08-27 14:29:21
+I can’t believe I didn’t learn about this in school.,comment #62,sadness,0.5517922043800354,2022-08-27 13:29:37
+I can’t believe I didn’t learn about this in school.,comment #63,anger,0.978306233882904,2022-08-27 16:03:40
+I can’t believe I didn’t learn about this in school.,comment #64,sadness,0.33612775802612305,2022-08-27 15:30:20
+I can’t believe I didn’t learn about this in school.,comment #65,joy,0.9611053466796875,2022-08-27 13:58:11
+I can’t believe I didn’t learn about this in school.,comment #66,fear,0.8147919774055481,2022-08-27 11:37:25
+I can’t believe I didn’t learn about this in school.,comment #67,joy,0.5335984826087952,2022-08-27 13:56:46
+I can’t believe I didn’t learn about this in school.,comment #68,anger,0.48490598797798157,2022-08-27 14:43:10
+I can’t believe I didn’t learn about this in school.,comment #69,joy,0.6027868986129761,2022-08-27 11:58:14
+I can’t believe I didn’t learn about this in school.,comment #70,anger,0.9580346345901489,2022-08-27 11:59:08
+I can’t believe I didn’t learn about this in school.,comment #71,anger,0.6774343252182007,2022-08-27 11:59:36
+I can’t believe I didn’t learn about this in school.,comment #72,anger,0.9042453169822693,2022-08-27 11:57:43
+I can’t believe I didn’t learn about this in school.,comment #73,anger,0.555462121963501,2022-08-27 15:08:39
+I can’t believe I didn’t learn about this in school.,comment #74,joy,0.7676451206207275,2022-08-27 16:20:13
+I can’t believe I didn’t learn about this in school.,comment #75,anger,0.6785316467285156,2022-08-27 14:58:41
+I can’t believe I didn’t learn about this in school.,comment #76,anger,0.765744686126709,2022-08-27 19:13:13
+I can’t believe I didn’t learn about this in school.,comment #77,anger,0.8517849445343018,2022-08-27 14:35:23
+I can’t believe I didn’t learn about this in school.,comment #78,joy,0.6087916493415833,2022-08-27 12:57:02
+I can’t believe I didn’t learn about this in school.,comment #79,anger,0.7353687286376953,2022-08-27 12:37:02
+I can’t believe I didn’t learn about this in school.,comment #80,anger,0.683067262172699,2022-08-27 15:04:22
+I can’t believe I didn’t learn about this in school.,comment #81,joy,0.9342779517173767,2022-08-27 16:56:30
+I can’t believe I didn’t learn about this in school.,comment #82,sadness,0.9740007519721985,2022-08-27 12:37:28
+I can’t believe I didn’t learn about this in school.,comment #83,sadness,0.7669853568077087,2022-08-27 15:47:32
+I can’t believe I didn’t learn about this in school.,comment #84,joy,0.9670024514198303,2022-08-27 15:02:57
+I can’t believe I didn’t learn about this in school.,comment #85,anger,0.495682954788208,2022-08-27 17:41:14
+I can’t believe I didn’t learn about this in school.,comment #86,joy,0.9909936785697937,2022-08-27 16:01:52
+I can’t believe I didn’t learn about this in school.,comment #87,joy,0.5422732830047607,2022-08-27 14:40:19
+I can’t believe I didn’t learn about this in school.,comment #88,anger,0.47716572880744934,2022-08-27 13:27:59
+I can’t believe I didn’t learn about this in school.,comment #89,joy,0.9050987362861633,2022-08-27 16:23:08
+I can’t believe I didn’t learn about this in school.,comment #90,joy,0.40573176741600037,2022-08-27 15:11:29
+I can’t believe I didn’t learn about this in school.,comment #91,anger,0.512532651424408,2022-08-27 15:06:50
+I can’t believe I didn’t learn about this in school.,comment #92,anger,0.9571196436882019,2022-08-27 14:27:15
+I can’t believe I didn’t learn about this in school.,comment #93,anger,0.6546741127967834,2022-08-27 18:16:49
+I can’t believe I didn’t learn about this in school.,comment #94,fear,0.802490770816803,2022-08-28 15:10:52
+Why Is the United States Hostile to Socialism?,comment #1,joy,0.7379750609397888,2023-11-01 09:28:31
+Why Is the United States Hostile to Socialism?,comment #2,anger,0.5176087021827698,2023-11-01 08:45:25
+Why Is the United States Hostile to Socialism?,comment #3,anger,0.5903089642524719,2023-11-01 09:09:39
+Why Is the United States Hostile to Socialism?,comment #4,fear,0.9972800016403198,2023-11-01 19:11:48
+Why Is the United States Hostile to Socialism?,comment #5,joy,0.9587781429290771,2023-11-01 08:11:32
+Why Is the United States Hostile to Socialism?,comment #6,joy,0.9482704401016235,2023-11-01 09:12:12
+Why Is the United States Hostile to Socialism?,comment #7,anger,0.6995101571083069,2023-11-01 08:38:16
+Why Is the United States Hostile to Socialism?,comment #8,joy,0.961802065372467,2023-11-01 09:30:17
+Why Is the United States Hostile to Socialism?,comment #9,anger,0.3931392431259155,2023-11-01 08:30:05
+Why Is the United States Hostile to Socialism?,comment #10,sadness,0.9685184955596924,2023-11-01 10:17:36
+Why Is the United States Hostile to Socialism?,comment #11,joy,0.9636157751083374,2023-11-01 07:59:26
+Why Is the United States Hostile to Socialism?,comment #12,sadness,0.5517922043800354,2023-11-01 08:37:06
+Why Is the United States Hostile to Socialism?,comment #13,sadness,0.5517922043800354,2023-11-01 08:59:13
+Why Is the United States Hostile to Socialism?,comment #14,joy,0.9907584190368652,2023-11-01 15:52:43
+Why Is the United States Hostile to Socialism?,comment #15,joy,0.6469388008117676,2023-11-01 09:48:28
+Why Is the United States Hostile to Socialism?,comment #16,anger,0.6857490539550781,2023-11-01 09:53:42
+Why Is the United States Hostile to Socialism?,comment #17,anger,0.9508222341537476,2023-11-01 09:16:49
+Why Is the United States Hostile to Socialism?,comment #18,anger,0.9190196990966797,2023-11-01 19:11:29
+Why Is the United States Hostile to Socialism?,comment #19,anger,0.6757776737213135,2023-11-01 09:42:15
+Why Is the United States Hostile to Socialism?,comment #20,anger,0.9976682066917419,2023-11-01 10:08:17
+Why Is the United States Hostile to Socialism?,comment #21,sadness,0.5517922043800354,2023-11-01 09:41:30
+Why Is the United States Hostile to Socialism?,comment #22,joy,0.7348082065582275,2023-11-01 08:43:24
+Why Is the United States Hostile to Socialism?,comment #23,joy,0.9578021168708801,2023-11-01 08:48:18
+Why Is the United States Hostile to Socialism?,comment #24,joy,0.9934093952178955,2023-11-01 14:23:14
+Why Is the United States Hostile to Socialism?,comment #25,anger,0.90022873878479,2023-11-01 08:22:04
+Why Is the United States Hostile to Socialism?,comment #26,anger,0.7637766003608704,2023-11-01 19:25:35
+Why Is the United States Hostile to Socialism?,comment #27,sadness,0.9072790741920471,2023-11-01 08:04:36
+Why Is the United States Hostile to Socialism?,comment #28,anger,0.5536025166511536,2023-11-01 08:17:51
+Why Is the United States Hostile to Socialism?,comment #29,anger,0.9973924160003662,2023-11-01 08:45:34
+Why Is the United States Hostile to Socialism?,comment #30,joy,0.8459051847457886,2023-11-01 10:01:53
+Why Is the United States Hostile to Socialism?,comment #31,joy,0.993458092212677,2023-11-01 14:18:21
+Why Is the United States Hostile to Socialism?,comment #32,anger,0.9192991256713867,2023-11-01 12:29:41
+Why Is the United States Hostile to Socialism?,comment #33,anger,0.5822333693504333,2023-11-01 09:14:14
+Why Is the United States Hostile to Socialism?,comment #34,sadness,0.5517922043800354,2023-11-01 10:44:56
+Why Is the United States Hostile to Socialism?,comment #35,joy,0.8184077143669128,2023-11-01 19:27:02
+Why Is the United States Hostile to Socialism?,comment #36,anger,0.9682359099388123,2023-11-01 09:19:45
+Why Is the United States Hostile to Socialism?,comment #37,joy,0.958696186542511,2023-11-01 07:44:20
+Why Is the United States Hostile to Socialism?,comment #38,joy,0.6752592921257019,2023-11-01 18:28:45
+Why Is the United States Hostile to Socialism?,comment #39,joy,0.9895913004875183,2023-11-01 09:38:27
+Why Is the United States Hostile to Socialism?,comment #40,sadness,0.5517922043800354,2023-11-01 10:40:56
+Why Is the United States Hostile to Socialism?,comment #41,sadness,0.5517922043800354,2023-11-01 12:46:04
+Why Is the United States Hostile to Socialism?,comment #42,anger,0.913623034954071,2023-11-01 16:51:42
+Why Is the United States Hostile to Socialism?,comment #43,joy,0.8855656385421753,2023-11-01 18:11:33
+Why Is the United States Hostile to Socialism?,comment #44,joy,0.9973245859146118,2023-11-01 18:57:35
+Why Is the United States Hostile to Socialism?,comment #45,sadness,0.9133104085922241,2023-11-01 08:40:08
+Why Is the United States Hostile to Socialism?,comment #46,anger,0.9844570755958557,2023-11-01 08:28:15
+Why Is the United States Hostile to Socialism?,comment #47,anger,0.9661398530006409,2023-11-01 09:01:15
+Why Is the United States Hostile to Socialism?,comment #48,joy,0.9517569541931152,2023-11-01 09:35:43
+Why Is the United States Hostile to Socialism?,comment #49,sadness,0.5517922043800354,2023-11-01 10:25:12
+Why Is the United States Hostile to Socialism?,comment #50,joy,0.8933653831481934,2023-11-01 11:50:23
+Why Is the United States Hostile to Socialism?,comment #51,joy,0.7415570616722107,2023-11-01 16:07:55
+Why Is the United States Hostile to Socialism?,comment #52,joy,0.9961528182029724,2023-11-01 17:58:05
+Why Is the United States Hostile to Socialism?,comment #53,anger,0.6630547642707825,2023-11-01 09:20:48
+Why Is the United States Hostile to Socialism?,comment #54,anger,0.8159649968147278,2023-11-01 09:34:14
+Why Is the United States Hostile to Socialism?,comment #55,joy,0.4834443926811218,2023-11-01 10:26:28
+Why Is the United States Hostile to Socialism?,comment #56,anger,0.9527982473373413,2023-11-01 14:38:13
+Why Is the United States Hostile to Socialism?,comment #57,joy,0.973703920841217,2023-11-01 14:39:08
+Why Is the United States Hostile to Socialism?,comment #58,joy,0.9619898200035095,2023-11-01 15:30:10
+Why Is the United States Hostile to Socialism?,comment #59,anger,0.6029882431030273,2023-11-01 18:06:31
+Why Is the United States Hostile to Socialism?,comment #60,anger,0.7772493958473206,2023-11-01 18:14:17
+Why Is the United States Hostile to Socialism?,comment #61,joy,0.9356487989425659,2023-11-01 18:42:09
+Why Is the United States Hostile to Socialism?,comment #62,joy,0.7781385779380798,2023-11-01 22:34:47
+Why Is the United States Hostile to Socialism?,comment #63,joy,0.776020348072052,2023-11-01 22:47:34
+Why Is the United States Hostile to Socialism?,comment #64,joy,0.6234459280967712,2023-11-01 22:48:59
+Why Is the United States Hostile to Socialism?,comment #65,joy,0.9844167828559875,2023-11-01 22:58:40
+Why Is the United States Hostile to Socialism?,comment #66,anger,0.8515455722808838,2023-11-01 23:35:25
+Why Is the United States Hostile to Socialism?,comment #67,anger,0.7099083065986633,2023-11-02 01:30:15
+Why Is the United States Hostile to Socialism?,comment #68,joy,0.6951953172683716,2023-11-02 04:25:26
+Why Is the United States Hostile to Socialism?,comment #69,anger,0.8179247975349426,2023-11-02 05:39:09
+Why Is the United States Hostile to Socialism?,comment #70,anger,0.860957682132721,2023-11-02 07:01:46
+Why Is the United States Hostile to Socialism?,comment #71,sadness,0.6789405941963196,2023-11-02 11:00:55
+Why Is the United States Hostile to Socialism?,comment #72,fear,0.9808923602104187,2023-11-02 11:17:55
+Why Is the United States Hostile to Socialism?,comment #73,anger,0.9893516898155212,2023-11-02 13:55:55
+Why Is the United States Hostile to Socialism?,comment #74,anger,0.538117527961731,2023-11-02 16:17:33
+Why Is the United States Hostile to Socialism?,comment #75,anger,0.8318094611167908,2023-11-02 22:14:04
+Why Is the United States Hostile to Socialism?,comment #76,joy,0.9948441982269287,2023-11-02 23:26:36
+Why Is the United States Hostile to Socialism?,comment #77,joy,0.9046141505241394,2023-11-03 08:51:12
+Why Is the United States Hostile to Socialism?,comment #78,joy,0.8229321837425232,2023-11-03 09:42:01
+Why Is the United States Hostile to Socialism?,comment #79,anger,0.7284802794456482,2023-11-04 00:32:33
+Why Is the United States Hostile to Socialism?,comment #80,joy,0.9589662551879883,2023-11-04 17:51:28
+Why Is the United States Hostile to Socialism?,comment #81,anger,0.7830095291137695,2023-11-05 01:00:33
+Why Is the United States Hostile to Socialism?,comment #82,anger,0.9112393856048584,2023-11-05 01:50:54
+Why Is the United States Hostile to Socialism?,comment #83,anger,0.736524760723114,2023-11-05 13:12:23
+Why Is the United States Hostile to Socialism?,comment #84,anger,0.8603584170341492,2023-11-05 14:14:04
+Why Is the United States Hostile to Socialism?,comment #85,anger,0.9925024509429932,2023-11-15 02:39:29
+Why Is the United States Hostile to Socialism?,comment #86,anger,0.7762508392333984,2023-11-22 23:31:55
+Why Is the United States Hostile to Socialism?,comment #87,anger,0.5429148077964783,2023-12-12 18:51:28
+Why Is the United States Hostile to Socialism?,comment #88,anger,0.8771909475326538,2023-11-01 09:31:07
+Why Is the United States Hostile to Socialism?,comment #89,sadness,0.5517922043800354,2023-11-01 10:34:01
+Why Is the United States Hostile to Socialism?,comment #90,joy,0.945722222328186,2023-11-01 14:53:13
+Why Is the United States Hostile to Socialism?,comment #91,anger,0.6818250417709351,2023-11-02 08:42:17
+Why Is the United States Hostile to Socialism?,comment #92,anger,0.3895123600959778,2023-11-01 19:59:44
+Why Is the United States Hostile to Socialism?,comment #93,joy,0.7925079464912415,2023-11-01 14:55:59
+Why Is the United States Hostile to Socialism?,comment #94,joy,0.8741629123687744,2023-11-01 08:26:38
+Why Is the United States Hostile to Socialism?,comment #95,joy,0.9491496086120605,2023-11-01 09:26:39
+Why Is the United States Hostile to Socialism?,comment #96,sadness,0.5517922043800354,2023-11-01 08:27:43
+Why Is the United States Hostile to Socialism?,comment #97,sadness,0.9594792127609253,2023-11-01 17:33:58
+Why Is the United States Hostile to Socialism?,comment #98,joy,0.9959174990653992,2023-11-01 09:43:46
+Why Is the United States Hostile to Socialism?,comment #99,joy,0.9743571281433105,2023-11-01 09:46:13
+Why Is the United States Hostile to Socialism?,comment #100,joy,0.9946094751358032,2023-11-10 23:28:42
+Why Is the United States Hostile to Socialism?,comment #101,anger,0.7727643251419067,2023-11-01 09:17:40
+Why Is the United States Hostile to Socialism?,comment #102,anger,0.955264151096344,2023-11-01 10:09:43
+Why Is the United States Hostile to Socialism?,comment #103,joy,0.7215579748153687,2023-11-01 09:50:20
+Why Is the United States Hostile to Socialism?,comment #104,anger,0.9030655026435852,2023-11-01 09:44:00
+Why Is the United States Hostile to Socialism?,comment #105,joy,0.6312172412872314,2023-11-02 22:20:40
+Why Is the United States Hostile to Socialism?,comment #106,sadness,0.9855325818061829,2023-11-01 12:05:28
+Why Is the United States Hostile to Socialism?,comment #107,anger,0.7831147909164429,2023-11-01 08:21:05
+Why Is the United States Hostile to Socialism?,comment #108,joy,0.9964168071746826,2023-11-01 12:16:54
+Why Is the United States Hostile to Socialism?,comment #109,sadness,0.7977935671806335,2023-11-01 09:28:31
+Why Is the United States Hostile to Socialism?,comment #110,joy,0.9603487849235535,2023-11-01 12:03:16
+Why Is the United States Hostile to Socialism?,comment #111,love,0.5016165971755981,2023-11-01 09:31:04
+Why Is the United States Hostile to Socialism?,comment #112,anger,0.9236767888069153,2023-11-01 18:14:36
+Why Is the United States Hostile to Socialism?,comment #113,anger,0.5566995143890381,2023-11-01 09:48:09
+Why Is the United States Hostile to Socialism?,comment #114,anger,0.753192663192749,2023-11-01 10:17:33
+Why Is the United States Hostile to Socialism?,comment #115,joy,0.9259160757064819,2023-11-01 09:11:26
+Why Is the United States Hostile to Socialism?,comment #116,anger,0.9911189675331116,2023-11-01 09:41:52
+Why Is the United States Hostile to Socialism?,comment #117,joy,0.9085418581962585,2023-11-01 09:19:32
+Why Is the United States Hostile to Socialism?,comment #118,joy,0.7338785529136658,2023-11-01 08:58:30
+Why Is the United States Hostile to Socialism?,comment #119,anger,0.804259181022644,2023-11-01 09:09:18
+Why Is the United States Hostile to Socialism?,comment #120,joy,0.49029138684272766,2023-11-01 08:12:05
+Why Is the United States Hostile to Socialism?,comment #121,anger,0.6247730851173401,2023-11-01 08:12:04
+Why Is the United States Hostile to Socialism?,comment #122,joy,0.9962129592895508,2023-11-01 08:31:34
+Why Is the United States Hostile to Socialism?,comment #123,anger,0.59708172082901,2023-11-01 14:18:32
+Why Is the United States Hostile to Socialism?,comment #124,joy,0.9653868079185486,2023-11-01 08:22:37
+Why Is the United States Hostile to Socialism?,comment #125,joy,0.46137315034866333,2023-11-01 09:22:44
+Why Is the United States Hostile to Socialism?,comment #126,anger,0.7707488536834717,2023-11-01 14:03:53
+Why Is the United States Hostile to Socialism?,comment #127,anger,0.6345178484916687,2023-11-01 09:38:23
+Why Is the United States Hostile to Socialism?,comment #128,joy,0.5485552549362183,2023-11-01 09:10:47
+Why Is the United States Hostile to Socialism?,comment #129,anger,0.8793725967407227,2023-11-01 09:29:54
+Why Is the United States Hostile to Socialism?,comment #130,sadness,0.5517922043800354,2023-11-01 09:48:04
+Why Is the United States Hostile to Socialism?,comment #131,joy,0.9663289785385132,2023-11-01 08:23:29
+Why Is the United States Hostile to Socialism?,comment #132,sadness,0.5517922043800354,2023-11-01 10:45:06
+Why Is the United States Hostile to Socialism?,comment #133,sadness,0.5517922043800354,2023-11-01 12:57:32
+Why Is the United States Hostile to Socialism?,comment #134,anger,0.7688270807266235,2023-11-01 09:29:16
+Why Is the United States Hostile to Socialism?,comment #135,sadness,0.9133104085922241,2023-11-01 10:07:42
+Why Is the United States Hostile to Socialism?,comment #136,anger,0.6358750462532043,2023-11-01 09:48:52
+Why Is the United States Hostile to Socialism?,comment #137,joy,0.9986359477043152,2023-11-01 11:18:21
+Why Is the United States Hostile to Socialism?,comment #138,joy,0.9958445429801941,2023-11-03 09:52:24
+Why Is the United States Hostile to Socialism?,comment #139,joy,0.9641170501708984,2023-11-04 18:32:32
+Why Is the United States Hostile to Socialism?,comment #140,joy,0.6825366616249084,2023-11-01 09:42:06
+Why Is the United States Hostile to Socialism?,comment #141,anger,0.6373005509376526,2023-11-02 06:08:38
+Why Is the United States Hostile to Socialism?,comment #142,sadness,0.9870473146438599,2023-11-02 08:35:06
+Why Is the United States Hostile to Socialism?,comment #143,anger,0.5544788241386414,2023-11-02 14:04:23
+Why Is the United States Hostile to Socialism?,comment #144,sadness,0.5517922043800354,2023-11-01 11:03:19
+Why Is the United States Hostile to Socialism?,comment #145,sadness,0.3376263678073883,2023-11-01 23:33:16
+Why Is the United States Hostile to Socialism?,comment #146,fear,0.9538289308547974,2023-11-02 11:39:08
+Why Is the United States Hostile to Socialism?,comment #147,joy,0.7481809258460999,2023-11-01 17:12:52
+Why Is the United States Hostile to Socialism?,comment #148,anger,0.7370284795761108,2023-11-01 19:34:18
+Why Is the United States Hostile to Socialism?,comment #149,anger,0.8844609260559082,2023-11-02 06:31:33
+Why Is the United States Hostile to Socialism?,comment #150,joy,0.8370869159698486,2023-11-01 17:34:50
+Why Is the United States Hostile to Socialism?,comment #151,anger,0.9954675436019897,2023-11-01 19:03:02
+Why Is the United States Hostile to Socialism?,comment #152,anger,0.966955304145813,2023-11-03 10:37:47
+Why Is the United States Hostile to Socialism?,comment #153,joy,0.8580312132835388,2023-11-01 09:14:16
+Why Is the United States Hostile to Socialism?,comment #154,sadness,0.9133104085922241,2023-11-01 08:57:53
+Why Is the United States Hostile to Socialism?,comment #155,sadness,0.4935545325279236,2023-11-01 10:48:27
+Why Is the United States Hostile to Socialism?,comment #156,anger,0.9055657982826233,2023-11-10 23:23:27
+Why Is the United States Hostile to Socialism?,comment #157,sadness,0.9133104085922241,2023-11-01 11:28:45
+Why Is the United States Hostile to Socialism?,comment #158,joy,0.9835100769996643,2023-11-01 11:32:27
+Why Is the United States Hostile to Socialism?,comment #159,anger,0.9872820973396301,2023-11-01 10:20:26
+Why Is the United States Hostile to Socialism?,comment #160,anger,0.8898321390151978,2023-11-01 11:54:18
+Why Is the United States Hostile to Socialism?,comment #161,sadness,0.5517922043800354,2023-11-01 09:32:19
+Why Is the United States Hostile to Socialism?,comment #162,sadness,0.5517922043800354,2023-11-01 09:27:58
+Why Is the United States Hostile to Socialism?,comment #163,joy,0.9881673455238342,2023-11-02 08:07:36
+Why Is the United States Hostile to Socialism?,comment #164,surprise,0.8630573153495789,2023-11-02 15:00:29
+Why Is the United States Hostile to Socialism?,comment #165,sadness,0.8924924731254578,2023-11-01 09:52:40
+Why Is the United States Hostile to Socialism?,comment #166,anger,0.907129168510437,2023-11-01 09:49:16
+Why Is the United States Hostile to Socialism?,comment #167,sadness,0.6998701691627502,2023-11-01 17:38:25
+Why Is the United States Hostile to Socialism?,comment #168,sadness,0.9133104085922241,2023-11-01 08:30:56
+Why Is the United States Hostile to Socialism?,comment #169,joy,0.577671468257904,2023-11-01 08:34:09
+Why Is the United States Hostile to Socialism?,comment #170,sadness,0.5517922043800354,2023-11-01 10:50:56
+Why Is the United States Hostile to Socialism?,comment #171,anger,0.8796476721763611,2023-11-01 10:10:09
+Why Is the United States Hostile to Socialism?,comment #172,sadness,0.5517922043800354,2023-11-01 09:34:48
+Why Is the United States Hostile to Socialism?,comment #173,sadness,0.9133104085922241,2023-11-01 10:03:32
+Why Is the United States Hostile to Socialism?,comment #174,sadness,0.9727545380592346,2023-11-02 08:33:59
+Why Is the United States Hostile to Socialism?,comment #175,anger,0.6972441077232361,2023-11-01 11:35:41
+Why Is the United States Hostile to Socialism?,comment #176,joy,0.9801962971687317,2023-11-01 10:38:56
+Why Is the United States Hostile to Socialism?,comment #177,joy,0.9953308701515198,2023-11-01 10:49:47
+Why Is the United States Hostile to Socialism?,comment #178,anger,0.9813607335090637,2023-11-01 11:06:40
+Why Is the United States Hostile to Socialism?,comment #179,joy,0.9923431277275085,2023-11-01 10:40:13
+Why Is the United States Hostile to Socialism?,comment #180,anger,0.9915472865104675,2023-11-01 11:04:54
+Why Is the United States Hostile to Socialism?,comment #181,anger,0.7231869101524353,2023-11-01 08:38:23
+Why Is the United States Hostile to Socialism?,comment #182,anger,0.4798184931278229,2023-11-01 08:45:50
+Why Is the United States Hostile to Socialism?,comment #183,anger,0.7857875227928162,2023-11-01 08:16:10
+Why Is the United States Hostile to Socialism?,comment #184,anger,0.9603874683380127,2023-11-01 08:38:41
+Why Is the United States Hostile to Socialism?,comment #185,joy,0.9838638305664062,2023-11-01 08:48:53
+Why Is the United States Hostile to Socialism?,comment #186,anger,0.9659262895584106,2023-11-01 09:38:50
+Why Is the United States Hostile to Socialism?,comment #187,joy,0.9429035186767578,2023-11-01 10:37:52
+Why Is the United States Hostile to Socialism?,comment #188,anger,0.935754120349884,2023-11-01 09:41:23
+Why Is the United States Hostile to Socialism?,comment #189,anger,0.9480975866317749,2023-11-01 09:43:31
+Why Is the United States Hostile to Socialism?,comment #190,sadness,0.5517922043800354,2023-11-01 09:50:01
+Why Is the United States Hostile to Socialism?,comment #191,sadness,0.5517922043800354,2023-11-01 13:07:25
+Why Is the United States Hostile to Socialism?,comment #192,joy,0.9022796154022217,2023-11-01 10:35:51
+Why Is the United States Hostile to Socialism?,comment #193,anger,0.5410699844360352,2023-11-01 10:08:59
+Why Is the United States Hostile to Socialism?,comment #194,anger,0.4321524500846863,2023-11-04 21:28:46
+Why Is the United States Hostile to Socialism?,comment #195,anger,0.9080599546432495,2023-11-01 09:49:36
+Why Is the United States Hostile to Socialism?,comment #196,joy,0.561437726020813,2023-11-01 09:53:23
+Why Is the United States Hostile to Socialism?,comment #197,anger,0.5982496738433838,2023-11-02 18:47:52
+Why Is the United States Hostile to Socialism?,comment #198,anger,0.9834197759628296,2023-11-02 16:15:28
+Why Is the United States Hostile to Socialism?,comment #199,anger,0.5781269669532776,2023-11-02 16:59:25
+Why Is the United States Hostile to Socialism?,comment #200,anger,0.8694254755973816,2023-11-01 09:16:03
+Why Is the United States Hostile to Socialism?,comment #201,joy,0.9696858525276184,2023-11-01 10:49:34
+Why Is the United States Hostile to Socialism?,comment #202,anger,0.5808616876602173,2023-11-01 09:06:45
+Why Is the United States Hostile to Socialism?,comment #203,joy,0.9932470321655273,2023-11-01 17:34:52
+Why Is the United States Hostile to Socialism?,comment #204,anger,0.978428065776825,2023-11-01 12:19:23
+Why Is the United States Hostile to Socialism?,comment #205,joy,0.9101092219352722,2023-11-01 15:34:39
+Why Is the United States Hostile to Socialism?,comment #206,joy,0.9620983600616455,2023-11-01 10:30:00
+Why Is the United States Hostile to Socialism?,comment #207,sadness,0.9161111116409302,2023-11-01 09:54:16
+Why Is the United States Hostile to Socialism?,comment #208,joy,0.8224944472312927,2023-11-01 11:15:41
+Why Is the United States Hostile to Socialism?,comment #209,joy,0.5301655530929565,2023-11-01 11:57:49
+Why Is the United States Hostile to Socialism?,comment #210,anger,0.8558965921401978,2023-11-01 08:35:38
+Why Is the United States Hostile to Socialism?,comment #211,anger,0.9687073826789856,2023-11-01 10:14:04
+Why Is the United States Hostile to Socialism?,comment #212,sadness,0.5517922043800354,2023-11-01 10:37:28
+Why Is the United States Hostile to Socialism?,comment #213,sadness,0.5557640194892883,2023-11-01 10:18:56
+Why Is the United States Hostile to Socialism?,comment #214,anger,0.5475749373435974,2023-11-02 01:46:31
+Why Is the United States Hostile to Socialism?,comment #215,sadness,0.5517922043800354,2023-11-01 10:09:12
+Why Is the United States Hostile to Socialism?,comment #216,sadness,0.9484721422195435,2023-11-01 12:08:04
+Why Is the United States Hostile to Socialism?,comment #217,joy,0.6682317852973938,2023-11-02 08:37:54
+Why Is the United States Hostile to Socialism?,comment #218,anger,0.40238064527511597,2023-11-01 11:48:35
+Why Is the United States Hostile to Socialism?,comment #219,joy,0.9949544072151184,2023-11-01 10:40:52
+Why Is the United States Hostile to Socialism?,comment #220,joy,0.870627224445343,2023-11-01 11:20:29
+Why Is the United States Hostile to Socialism?,comment #221,anger,0.9940328001976013,2023-11-01 08:21:15
+Why Is the United States Hostile to Socialism?,comment #222,anger,0.9496929049491882,2023-11-01 08:26:17
+Why Is the United States Hostile to Socialism?,comment #223,anger,0.6541651487350464,2023-11-01 08:41:14
+Why Is the United States Hostile to Socialism?,comment #224,joy,0.6163287162780762,2023-11-01 10:42:44
+Why Is the United States Hostile to Socialism?,comment #225,joy,0.9845942258834839,2023-11-01 13:14:29
+Why Is the United States Hostile to Socialism?,comment #226,joy,0.6807469129562378,2023-11-01 10:08:31
+Why Is the United States Hostile to Socialism?,comment #227,anger,0.6769357919692993,2023-11-01 09:45:46
+Why Is the United States Hostile to Socialism?,comment #228,anger,0.7799655199050903,2023-11-01 09:58:24
+Why Is the United States Hostile to Socialism?,comment #229,sadness,0.5517922043800354,2023-11-01 09:51:31
+Why Is the United States Hostile to Socialism?,comment #230,sadness,0.5635289549827576,2023-11-01 10:20:16
+Why Is the United States Hostile to Socialism?,comment #231,joy,0.6049360036849976,2023-11-01 19:54:50
+Why Is the United States Hostile to Socialism?,comment #232,sadness,0.9940273761749268,2023-11-01 10:14:40
+Why Is the United States Hostile to Socialism?,comment #233,joy,0.41248148679733276,2023-11-01 20:16:19
+Why Is the United States Hostile to Socialism?,comment #234,anger,0.7252170443534851,2023-11-02 08:38:40
+Why Is the United States Hostile to Socialism?,comment #235,joy,0.9935348033905029,2023-11-02 16:52:41
+Why Is the United States Hostile to Socialism?,comment #236,joy,0.7202969789505005,2023-11-01 10:26:40
+Why Is the United States Hostile to Socialism?,comment #237,joy,0.9876461625099182,2023-11-01 10:11:23
+Why Is the United States Hostile to Socialism?,comment #238,sadness,0.9133104085922241,2023-11-01 10:58:38
+Why Is the United States Hostile to Socialism?,comment #239,sadness,0.5517922043800354,2023-11-01 09:19:01
+Why Is the United States Hostile to Socialism?,comment #240,anger,0.9145396947860718,2023-11-01 10:32:29
+Why Is the United States Hostile to Socialism?,comment #241,anger,0.8060467839241028,2023-11-01 11:17:06
+Why Is the United States Hostile to Socialism?,comment #242,joy,0.6779130697250366,2023-11-01 08:46:42
+Why Is the United States Hostile to Socialism?,comment #243,surprise,0.9668902158737183,2023-11-01 09:06:17
+Why Is the United States Hostile to Socialism?,comment #244,anger,0.6837624907493591,2023-11-01 10:38:22
+Why Is the United States Hostile to Socialism?,comment #245,sadness,0.9133104085922241,2023-11-01 11:35:56
+Why Is the United States Hostile to Socialism?,comment #246,anger,0.6443761587142944,2023-11-01 12:25:24
+Why Is the United States Hostile to Socialism?,comment #247,sadness,0.9133104085922241,2023-11-01 13:18:40
+Why Is the United States Hostile to Socialism?,comment #248,joy,0.8297978043556213,2023-11-02 08:46:47
+Why Is the United States Hostile to Socialism?,comment #249,anger,0.5098983645439148,2023-11-01 12:20:53
+Why Is the United States Hostile to Socialism?,comment #250,joy,0.9838444590568542,2023-11-01 11:26:54
+Why Is the United States Hostile to Socialism?,comment #251,anger,0.6687385439872742,2023-11-01 08:34:54
+Why Is the United States Hostile to Socialism?,comment #252,anger,0.6280235052108765,2023-11-01 09:28:54
+Why Is the United States Hostile to Socialism?,comment #253,anger,0.6073058843612671,2023-11-01 08:39:06
+Why Is the United States Hostile to Socialism?,comment #254,anger,0.8444574475288391,2023-11-01 08:42:46
+Why Is the United States Hostile to Socialism?,comment #255,anger,0.930463969707489,2023-11-01 11:44:36
+Why Is the United States Hostile to Socialism?,comment #256,joy,0.8653165698051453,2023-11-01 09:53:51
+Why Is the United States Hostile to Socialism?,comment #257,joy,0.47157418727874756,2023-11-01 10:13:49
+Why Is the United States Hostile to Socialism?,comment #258,sadness,0.5517922043800354,2023-11-01 09:52:44
+Why Is the United States Hostile to Socialism?,comment #259,anger,0.7580699324607849,2023-11-01 10:24:19
+Why Is the United States Hostile to Socialism?,comment #260,joy,0.7703157663345337,2023-11-02 14:08:16
+Why Is the United States Hostile to Socialism?,comment #261,sadness,0.5721471309661865,2023-11-01 10:56:31
+Why Is the United States Hostile to Socialism?,comment #262,joy,0.5604087710380554,2023-11-01 19:06:41
+Why Is the United States Hostile to Socialism?,comment #263,joy,0.9252114295959473,2023-11-01 21:42:59
+Why Is the United States Hostile to Socialism?,comment #264,anger,0.6098379492759705,2023-11-01 10:41:24
+Why Is the United States Hostile to Socialism?,comment #265,surprise,0.9250153303146362,2023-11-01 10:32:07
+Why Is the United States Hostile to Socialism?,comment #266,anger,0.8311048746109009,2023-11-01 11:39:11
+Why Is the United States Hostile to Socialism?,comment #267,sadness,0.5517922043800354,2023-11-01 10:18:15
+Why Is the United States Hostile to Socialism?,comment #268,sadness,0.5517922043800354,2023-11-01 09:48:43
+Why Is the United States Hostile to Socialism?,comment #269,sadness,0.5517922043800354,2023-11-01 09:48:43
+Why Is the United States Hostile to Socialism?,comment #270,sadness,0.5517922043800354,2023-11-01 09:46:12
+Why Is the United States Hostile to Socialism?,comment #271,anger,0.534156084060669,2023-11-01 17:40:49
+Why Is the United States Hostile to Socialism?,comment #272,anger,0.8283461332321167,2023-11-01 08:47:37
+Why Is the United States Hostile to Socialism?,comment #273,anger,0.8343029022216797,2023-11-01 09:07:31
+Why Is the United States Hostile to Socialism?,comment #274,anger,0.745875358581543,2023-11-01 17:52:16
+Why Is the United States Hostile to Socialism?,comment #275,sadness,0.5517922043800354,2023-11-01 14:41:48
+Why Is the United States Hostile to Socialism?,comment #276,joy,0.8446233868598938,2023-11-01 14:45:51
+Why Is the United States Hostile to Socialism?,comment #277,joy,0.678244948387146,2023-11-02 08:48:47
+Why Is the United States Hostile to Socialism?,comment #278,joy,0.9480301737785339,2023-11-01 08:53:14
+Why Is the United States Hostile to Socialism?,comment #279,anger,0.8773032426834106,2023-11-01 09:34:31
+Why Is the United States Hostile to Socialism?,comment #280,anger,0.895408034324646,2023-11-01 08:47:22
+Why Is the United States Hostile to Socialism?,comment #281,anger,0.8470746278762817,2023-11-01 08:56:14
+Why Is the United States Hostile to Socialism?,comment #282,anger,0.8175200819969177,2023-11-01 09:57:02
+Why Is the United States Hostile to Socialism?,comment #283,sadness,0.5517922043800354,2023-11-01 10:22:38
+Why Is the United States Hostile to Socialism?,comment #284,anger,0.7864378094673157,2023-11-01 10:27:17
+Why Is the United States Hostile to Socialism?,comment #285,sadness,0.9743185639381409,2023-11-01 21:14:27
+Why Is the United States Hostile to Socialism?,comment #286,anger,0.937176525592804,2023-11-01 11:59:10
+Why Is the United States Hostile to Socialism?,comment #287,sadness,0.5517922043800354,2023-11-01 11:49:38
+Why Is the United States Hostile to Socialism?,comment #288,joy,0.9851254224777222,2023-11-01 17:48:38
+Why Is the United States Hostile to Socialism?,comment #289,joy,0.9246928095817566,2023-11-01 09:19:50
+Why Is the United States Hostile to Socialism?,comment #290,anger,0.9441969394683838,2023-11-01 09:41:35
+Why Is the United States Hostile to Socialism?,comment #291,sadness,0.5517922043800354,2023-11-01 17:01:54
+Why Is the United States Hostile to Socialism?,comment #292,sadness,0.9133104085922241,2023-11-01 15:01:58
+Why Is the United States Hostile to Socialism?,comment #293,joy,0.9467334151268005,2023-11-02 09:02:57
+Why Is the United States Hostile to Socialism?,comment #294,anger,0.5049938559532166,2023-11-01 08:50:05
+Why Is the United States Hostile to Socialism?,comment #295,anger,0.7335425019264221,2023-11-01 09:03:05
+Why Is the United States Hostile to Socialism?,comment #296,joy,0.4878084063529968,2023-11-01 11:48:17
+Why Is the United States Hostile to Socialism?,comment #297,anger,0.9946276545524597,2023-11-01 10:31:22
+Why Is the United States Hostile to Socialism?,comment #298,anger,0.7143729329109192,2023-11-01 12:10:01
+Why Is the United States Hostile to Socialism?,comment #299,sadness,0.5517922043800354,2023-11-01 11:50:40
+Why Is the United States Hostile to Socialism?,comment #300,anger,0.8580761551856995,2023-11-04 23:28:15
+Why Is the United States Hostile to Socialism?,comment #301,joy,0.7544732093811035,2023-11-01 09:23:01
+Why Is the United States Hostile to Socialism?,comment #302,anger,0.809802234172821,2023-11-01 17:08:38
+Why Is the United States Hostile to Socialism?,comment #303,joy,0.9945476055145264,2023-11-02 01:54:19
+Why Is the United States Hostile to Socialism?,comment #304,joy,0.992169201374054,2023-11-02 09:03:35
+Why Is the United States Hostile to Socialism?,comment #305,anger,0.6022197008132935,2023-11-01 09:02:32
+Why Is the United States Hostile to Socialism?,comment #306,joy,0.8180359601974487,2023-11-01 09:21:25
+Why Is the United States Hostile to Socialism?,comment #307,anger,0.8900375366210938,2023-11-01 20:26:52
+Why Is the United States Hostile to Socialism?,comment #308,anger,0.5512930750846863,2023-11-01 13:48:06
+Why Is the United States Hostile to Socialism?,comment #309,sadness,0.5517922043800354,2023-11-01 12:08:44
+Why Is the United States Hostile to Socialism?,comment #310,joy,0.7744446396827698,2023-11-01 10:15:11
+Why Is the United States Hostile to Socialism?,comment #311,love,0.7572763562202454,2023-11-02 09:09:49
+Why Is the United States Hostile to Socialism?,comment #312,anger,0.8201714158058167,2023-11-01 09:09:45
+Why Is the United States Hostile to Socialism?,comment #313,sadness,0.9617689847946167,2023-11-01 09:36:09
+Why Is the United States Hostile to Socialism?,comment #314,joy,0.7058200836181641,2023-11-01 09:24:32
+Why Is the United States Hostile to Socialism?,comment #315,sadness,0.9133104085922241,2023-11-01 21:02:18
+Why Is the United States Hostile to Socialism?,comment #316,joy,0.8621140718460083,2023-11-06 06:50:08
+Why Is the United States Hostile to Socialism?,comment #317,anger,0.8330812454223633,2023-11-01 10:19:35
+Why Is the United States Hostile to Socialism?,comment #318,anger,0.953738808631897,2023-11-02 09:21:03
+Why Is the United States Hostile to Socialism?,comment #319,joy,0.9849837422370911,2023-11-01 09:29:22
+Why Is the United States Hostile to Socialism?,comment #320,joy,0.7639618515968323,2023-11-02 02:07:19
+Why Is the United States Hostile to Socialism?,comment #321,sadness,0.5517922043800354,2023-11-06 12:15:26
+Why Is the United States Hostile to Socialism?,comment #322,anger,0.7857679724693298,2023-11-01 09:31:53
+Why Is the United States Hostile to Socialism?,comment #323,anger,0.91081303358078,2023-11-01 09:37:28
+Why Is the United States Hostile to Socialism?,comment #324,anger,0.8099445700645447,2023-11-01 09:38:29
+Why Is the United States Hostile to Socialism?,comment #325,joy,0.5156918168067932,2023-11-01 09:40:56
+Why Is the United States Hostile to Socialism?,comment #326,anger,0.9855726361274719,2023-11-01 09:42:09
+Why Is the United States Hostile to Socialism?,comment #327,anger,0.8379479646682739,2023-11-01 09:43:48
+Why Is the United States Hostile to Socialism?,comment #328,anger,0.7943698763847351,2023-11-01 09:46:24
+Why Is the United States Hostile to Socialism?,comment #329,joy,0.6839352250099182,2023-11-01 09:47:53
+Why Is the United States Hostile to Socialism?,comment #330,joy,0.5604142546653748,2023-11-01 09:49:32
+Why Is the United States Hostile to Socialism?,comment #331,anger,0.851304829120636,2023-11-01 09:50:32
+Why Is the United States Hostile to Socialism?,comment #332,anger,0.7152595520019531,2023-11-01 09:51:41
+Why Is the United States Hostile to Socialism?,comment #333,anger,0.6877087354660034,2023-11-01 09:53:37
+Why Is the United States Hostile to Socialism?,comment #334,joy,0.5993298888206482,2023-11-01 09:58:07
+Why Is the United States Hostile to Socialism?,comment #335,joy,0.9944443106651306,2023-11-01 10:01:04
+The signing of the Magna Carta in 1215,comment #1,anger,0.43382856249809265,2022-12-10 19:11:03
+The signing of the Magna Carta in 1215,comment #2,joy,0.4005323350429535,2022-12-10 19:00:23
+The signing of the Magna Carta in 1215,comment #3,joy,0.9932368397712708,2022-12-10 20:42:09
+The signing of the Magna Carta in 1215,comment #4,joy,0.6565060615539551,2022-12-10 21:15:09
+The signing of the Magna Carta in 1215,comment #5,anger,0.8729627132415771,2022-12-10 21:38:18
+The signing of the Magna Carta in 1215,comment #6,joy,0.6196403503417969,2022-12-10 19:20:46
+The signing of the Magna Carta in 1215,comment #7,sadness,0.5148881673812866,2022-12-10 20:20:58
+The signing of the Magna Carta in 1215,comment #8,sadness,0.9980660080909729,2022-12-10 20:07:58
+The signing of the Magna Carta in 1215,comment #9,anger,0.8380926251411438,2022-12-10 21:54:20
+The signing of the Magna Carta in 1215,comment #10,joy,0.9724545478820801,2022-12-10 20:10:28
+The signing of the Magna Carta in 1215,comment #11,joy,0.8746106028556824,2022-12-10 22:08:17
+The signing of the Magna Carta in 1215,comment #12,sadness,0.9762292504310608,2022-12-10 19:47:05
+The signing of the Magna Carta in 1215,comment #13,anger,0.9069673418998718,2022-12-10 21:59:35
+The signing of the Magna Carta in 1215,comment #14,sadness,0.5517922043800354,2022-12-10 19:36:49
+The signing of the Magna Carta in 1215,comment #15,anger,0.7735242247581482,2022-12-10 19:49:19
+The signing of the Magna Carta in 1215,comment #16,joy,0.9736550450325012,2022-12-10 21:30:25
+The signing of the Magna Carta in 1215,comment #17,joy,0.728015661239624,2022-12-10 20:37:48
+The signing of the Magna Carta in 1215,comment #18,sadness,0.9466478228569031,2022-12-10 20:17:05
+The signing of the Magna Carta in 1215,comment #19,sadness,0.5517922043800354,2022-12-10 20:12:33
+The signing of the Magna Carta in 1215,comment #20,anger,0.570818305015564,2022-12-10 19:10:32
+The signing of the Magna Carta in 1215,comment #21,joy,0.8841089010238647,2022-12-10 19:59:34
+The signing of the Magna Carta in 1215,comment #22,anger,0.49413058161735535,2022-12-10 21:10:49
+The signing of the Magna Carta in 1215,comment #23,anger,0.6221234202384949,2022-12-10 20:05:03
+The signing of the Magna Carta in 1215,comment #24,anger,0.8609516024589539,2022-12-10 20:49:38
+The signing of the Magna Carta in 1215,comment #25,sadness,0.5425982475280762,2022-12-10 20:11:45
+The signing of the Magna Carta in 1215,comment #26,joy,0.7010728120803833,2022-12-10 22:11:49
+The signing of the Magna Carta in 1215,comment #27,joy,0.9674118161201477,2022-12-10 21:47:02
+The signing of the Magna Carta in 1215,comment #28,anger,0.7786829471588135,2022-12-10 21:41:26
+The signing of the Magna Carta in 1215,comment #29,fear,0.5626531839370728,2022-12-10 21:18:15
+The signing of the Magna Carta in 1215,comment #30,fear,0.647549569606781,2022-12-10 20:39:16
+The signing of the Magna Carta in 1215,comment #31,joy,0.908953070640564,2022-12-10 21:11:31
+The signing of the Magna Carta in 1215,comment #32,joy,0.7914412021636963,2022-12-10 20:07:58
+The signing of the Magna Carta in 1215,comment #33,joy,0.7229935526847839,2022-12-10 21:30:09
+The signing of the Magna Carta in 1215,comment #34,fear,0.7369388937950134,2022-12-10 21:58:33
+The signing of the Magna Carta in 1215,comment #35,anger,0.5437299609184265,2022-12-10 21:05:31
+The signing of the Magna Carta in 1215,comment #36,joy,0.895261824131012,2022-12-10 20:39:50
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #1,fear,0.7874503135681152,2024-01-31 16:01:59
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #2,sadness,0.7012068629264832,2024-01-31 16:35:59
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #3,sadness,0.5517922043800354,2024-01-31 15:50:57
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #4,sadness,0.33751365542411804,2024-01-31 15:21:07
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #5,sadness,0.5517922043800354,2024-01-31 17:58:55
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #6,anger,0.529016375541687,2024-02-03 14:21:57
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #7,joy,0.9905458688735962,2024-01-31 16:42:36
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #8,sadness,0.7959950566291809,2024-02-05 11:07:44
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #9,anger,0.818987250328064,2024-01-31 15:33:43
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #10,joy,0.9983443021774292,2024-01-31 16:43:57
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #11,joy,0.9587381482124329,2024-02-05 12:23:06
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #12,sadness,0.5517922043800354,2024-01-31 17:48:56
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #13,anger,0.5602644681930542,2024-02-01 06:42:36
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #14,sadness,0.5517922043800354,2024-01-31 20:56:18
+The Roman Empire's Worst Plagues Were Linked to Climate Change,comment #15,joy,0.4277399778366089,2024-02-01 07:27:32
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #1,joy,0.8261468410491943,2024-03-28 23:25:47
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #2,joy,0.9842150807380676,2024-03-29 00:07:07
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #3,joy,0.9851070046424866,2024-03-29 02:09:29
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #4,fear,0.5825812816619873,2024-03-29 00:14:01
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #5,anger,0.33694806694984436,2024-03-29 01:48:06
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #6,surprise,0.7773994207382202,2024-03-29 10:27:45
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #7,joy,0.9824212193489075,2024-03-29 06:59:10
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #8,joy,0.9986026883125305,2024-03-31 04:24:06
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #9,joy,0.7611995935440063,2024-03-29 09:52:55
+"Yes, but what does the historical documentation say about The Ark of the Covenant?",comment #10,joy,0.9931401610374451,2024-03-29 07:53:15
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #1,joy,0.9965255856513977,2013-01-07 11:28:42
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #2,sadness,0.44223466515541077,2013-01-07 11:19:24
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #3,sadness,0.9903430938720703,2013-01-07 11:25:00
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #4,joy,0.49967160820961,2013-01-07 11:31:32
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #5,anger,0.6133087873458862,2013-01-08 00:34:43
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #6,anger,0.833892822265625,2013-01-07 11:31:10
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #7,anger,0.9456622004508972,2013-01-07 11:27:09
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #8,anger,0.9624447822570801,2013-01-07 16:33:26
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #9,sadness,0.9988418221473694,2013-01-07 12:11:21
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #10,anger,0.8738200068473816,2013-01-07 12:06:47
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #11,anger,0.7355192303657532,2013-01-08 00:31:27
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #12,joy,0.8334528803825378,2013-01-07 12:07:15
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #13,sadness,0.9969846606254578,2013-01-07 12:10:41
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #14,joy,0.862236738204956,2013-01-07 11:34:05
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #15,anger,0.5813127160072327,2013-01-07 18:54:23
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #16,joy,0.9932733774185181,2013-01-07 11:40:54
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #17,joy,0.9855371117591858,2013-01-07 13:57:36
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #18,anger,0.5504478216171265,2013-01-07 12:22:50
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #19,joy,0.6030290126800537,2013-01-07 11:37:39
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #20,anger,0.9243746995925903,2013-01-07 18:37:33
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #21,sadness,0.3695858120918274,2013-01-07 15:04:38
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #22,joy,0.9111730456352234,2013-01-07 12:40:11
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #23,joy,0.9930287003517151,2013-01-07 12:19:05
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #24,anger,0.9724113941192627,2013-01-07 22:10:34
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #25,joy,0.9820595383644104,2013-01-07 17:50:05
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #26,sadness,0.9948238134384155,2013-01-07 13:37:10
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #27,fear,0.8116655349731445,2013-01-07 18:41:41
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #28,sadness,0.6145030856132507,2013-01-07 18:38:34
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #29,anger,0.5529329180717468,2013-01-07 15:22:02
+"Sorry, America's Military Record Is A Lot Worse Than You Think It Is",comment #30,anger,0.6752610802650452,2013-01-07 18:40:19
+"The Aëthnic Union, Urania and abolishing the gender binary",comment #1,joy,0.9989258646965027,2023-11-16 14:26:28
+"The Aëthnic Union, Urania and abolishing the gender binary",comment #2,anger,0.5726368427276611,2023-11-15 14:24:35
+"The Aëthnic Union, Urania and abolishing the gender binary",comment #3,joy,0.9979544878005981,2023-11-16 14:54:52
+Polish archaeologists in Sudan claim 'unique' human settlement discovery. [Claims up to 70k years old],comment #1,joy,0.7746421694755554,2015-07-01 19:30:26
+Polish archaeologists in Sudan claim 'unique' human settlement discovery. [Claims up to 70k years old],comment #2,joy,0.9911304712295532,2015-07-02 02:48:30
+Polish archaeologists in Sudan claim 'unique' human settlement discovery. [Claims up to 70k years old],comment #3,joy,0.9971469044685364,2015-07-03 07:31:49
+Reframing the Thanksgiving Narrative,comment #1,joy,0.7788605690002441,2023-11-10 12:39:48
+Reframing the Thanksgiving Narrative,comment #2,joy,0.9787973165512085,2023-11-11 17:29:01
+Reframing the Thanksgiving Narrative,comment #3,joy,0.8982737064361572,2023-11-10 13:57:11
+Reframing the Thanksgiving Narrative,comment #4,surprise,0.984200656414032,2023-11-10 13:21:03
+Reframing the Thanksgiving Narrative,comment #5,joy,0.9798440933227539,2023-11-10 13:21:23
+Reframing the Thanksgiving Narrative,comment #6,sadness,0.9701528549194336,2023-11-20 05:53:04
+Reframing the Thanksgiving Narrative,comment #7,joy,0.9929312467575073,2023-11-10 15:27:10
+Reframing the Thanksgiving Narrative,comment #8,fear,0.9766643047332764,2023-11-10 17:20:57
+Reframing the Thanksgiving Narrative,comment #9,joy,0.8947985768318176,2023-11-10 19:12:17
+Reframing the Thanksgiving Narrative,comment #10,sadness,0.5517922043800354,2023-11-10 12:50:43
+Reframing the Thanksgiving Narrative,comment #11,joy,0.9867672324180603,2023-12-22 09:21:17
+Reframing the Thanksgiving Narrative,comment #12,fear,0.8329704403877258,2023-11-10 19:55:14
+Reframing the Thanksgiving Narrative,comment #13,joy,0.8108277320861816,2023-11-10 14:39:24
+Reframing the Thanksgiving Narrative,comment #14,joy,0.9949642419815063,2023-11-10 14:03:29
+Reframing the Thanksgiving Narrative,comment #15,anger,0.6834086775779724,2023-12-01 21:20:23
+Reframing the Thanksgiving Narrative,comment #16,sadness,0.5865954160690308,2023-11-10 17:01:03
+Reframing the Thanksgiving Narrative,comment #17,joy,0.8550693392753601,2023-11-10 18:24:26
+Reframing the Thanksgiving Narrative,comment #18,sadness,0.5517922043800354,2023-11-10 13:01:06
+Reframing the Thanksgiving Narrative,comment #19,joy,0.9675753116607666,2023-11-10 20:06:34
+Reframing the Thanksgiving Narrative,comment #20,joy,0.9062166213989258,2023-11-10 17:44:45
+Reframing the Thanksgiving Narrative,comment #21,joy,0.9985678195953369,2023-11-19 23:45:43
+Reframing the Thanksgiving Narrative,comment #22,joy,0.8519464135169983,2023-11-10 22:59:57
+Reframing the Thanksgiving Narrative,comment #23,joy,0.9892190098762512,2023-11-15 13:31:10
+Reframing the Thanksgiving Narrative,comment #24,sadness,0.8628619313240051,2023-11-11 16:53:00
+Reframing the Thanksgiving Narrative,comment #25,joy,0.8128715753555298,2023-11-11 16:53:01

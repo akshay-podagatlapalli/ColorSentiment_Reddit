@@ -7,7 +7,7 @@ import matplotlib.colors as mcolors
 from scipy.ndimage import gaussian_filter
 
 # Load the emotion data
-emotion_data = pd.read_csv("output2.csv")
+emotion_data = pd.read_csv("data/output2.csv")
 
 # Define a mapping of emotion types to specific colors
 emotion_colors = {

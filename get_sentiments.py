@@ -7,7 +7,7 @@ import matplotlib.colors as mcolors
 from scipy.ndimage import gaussian_filter
 import matplotlib.animation as animation
 
-sent_data = pd.read_csv("output.csv")
+sent_data = pd.read_csv("data/output.csv")
 
 scores_dict = {}
 

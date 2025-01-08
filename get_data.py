@@ -19,7 +19,7 @@ reddit = praw.Reddit(
 )
 
 # Add the subreddit as a user input
-subreddit = reddit.subreddit("uoft")
+subreddit = reddit.subreddit("gaming")
 
 # Add additional variables with different selections
 # like "new_posts", "hot_posts", "controversial_posts" etc... as user inputs
@@ -99,7 +99,7 @@ def init_preprocess(data):
 # Run the preprocessing and 
 # and store all the cleaned data inside 
 # a dataframe
-def fectch_and_process():
+def fetch_and_process():
 
     unclean_data_dict = get_data()
     time_dict = get_time()
@@ -120,8 +120,10 @@ def fectch_and_process():
     results_sentiment_pipeline = []
     results_emotion_pipeline = []
 
-    # Iterate through each title and its corresponding comments
-    for title, comments in comments_dict.items():
+    # Convert comments_dict items to a list of tuples to maintain order
+    comments_list = list(comments_dict.items())
+
+    for title_idx, (title, comments) in enumerate(comments_list):
         for idx, sub_comment in enumerate(comments, start=1):
             result1 = sentiment_pipeline(sub_comment[0])  # Use the first item in the list (joined comment)
             result2 = emotion_pipeline(sub_comment[0])
@@ -135,16 +137,16 @@ def fectch_and_process():
             comment_time = time_dict[title][idx - 1]  # Subtract 1 since enumerate starts from 1
 
             # Append the data to the results list with time
-            results_sentiment_pipeline.append([title, f"comment #{idx}", sentiment_score, comment_time])
-            results_emotion_pipeline.append([title, f"comment #{idx}", emotion_type, emotion_score, comment_time])
-
+            results_sentiment_pipeline.append([f"Post #{title_idx + 1}", title, f"comment #{idx}", sentiment_score, comment_time])
+            results_emotion_pipeline.append([f"Post #{title_idx + 1}", title, f"comment #{idx}", emotion_type, emotion_score, comment_time])
 
     # Create DataFrames with the additional time column
-    sent_data = pd.DataFrame(results_sentiment_pipeline, columns=["title", "comment_number", "result", "time"])
-    sent_data.to_csv('output.csv', index=False)
+    sent_data = pd.DataFrame(results_sentiment_pipeline, columns=["post", "title", "comment_number", "result", "time"])
+    sent_data.to_csv('data/output.csv', index=False)
 
-    emotion_data = pd.DataFrame(results_emotion_pipeline, columns=["title", "comment_number", "type", "score", "time"])
-    emotion_data.to_csv('output2.csv', index=False)
+    emotion_data = pd.DataFrame(results_emotion_pipeline, columns=["post", "title", "comment_number", "type", "score", "time"])
+    emotion_data.to_csv('data/output2.csv', index=False)
 
     return sent_data, emotion_data
 
+get_it = fetch_and_process()
